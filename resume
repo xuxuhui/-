@@ -1,0 +1,110 @@
+\documentclass[11pt,a4paper,sans]{moderncv}        
+
+\moderncvstyle{banking}                             
+
+\usepackage[utf8]{inputenc}                      
+\usepackage{CJKutf8}                             
+
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                
+%\setlength{\makecvtitlenamewidth}{10cm}           
+
+\name{}{}
+\title{python web后端}                               
+\phone[mobile]{}                   
+\email{}                               
+\photo[64pt][0.4pt]{picture}                       
+\begin{document}
+\begin{CJK*}{UTF8}{gbsn}                          
+\makecvtitle
+
+\section{Education}
+\cventry{}{}{}{}{\textit{}}{} 
+
+\section{Skill}
+\begin{itemize}%
+\item 语言: python, java;
+\newline{}
+\item 熟练使用Linux Mac 操作系统;
+\newline{}
+\item 遵守PEP8编码规范;
+\newline{}
+\item 熟练使用Git代码版本管理;
+\newline{}
+\item 消息队列: rabbitmq;
+\newline{}
+\item 数据库: mysql;
+\newline{}
+\item 缓存: redis;
+\newline{}
+\item 全文检索: ElasticSearch;
+\newline{}
+\item nginx + uwsgi + django web服务器搭建;
+\newline{}
+\item 分布式事务的实现;
+\newline{}
+\item 使用django框架;
+\newline{}
+\item 了解http协议;
+\newline{}
+\item 前端: 使用jquery, js, avalon双向绑定;
+\end{itemize}
+
+\newpage
+\section{Experience}
+\cventry{2015-1--2016-10}{python web后端开发}{}{}{}{App端及Web端的api接口开发\newline{}%
+涉及模块:%
+\begin{itemize}%
+\item 商品模块;
+    \begin{itemize}%
+      \item 分类;
+      \item 销售属性, 预设参数;
+      \item Product;
+      \item Sku;
+      \end{itemize}
+\item 订单模块:
+  \begin{itemize}%
+  \item 订单;
+  \item 付款单;
+  \item 退款单;
+  \item 售后服务单;
+  \item 微信,支付宝支付接口对接;
+  \item 订单状态流转(状态机);
+  \end{itemize}
+\end{itemize}}
+\cventry{2016-10--至今}{java web后端开发}{}{}{}{App端及Web端的api接口开发 \newline{}}
+\begin{itemize}%
+\item 商品模块;
+    \begin{itemize}%
+      \item 分类;
+      \item 销售属性, 预设参数;
+      \item Product;
+      \item Sku;
+      \end{itemize}
+\item 订单模块:
+  \begin{itemize}%
+  \item 订单;
+  \item 付款单;
+  \item 退款单;
+  \item 售后服务单;
+  \item 微信,支付宝支付接口对接;
+  \item 订单状态流转(状态机);
+  \end{itemize}
+\item 统一审核系统:
+  \newline{}
+  \href{}{流程图}
+\item 分布式事务系统实现:
+  \newline{}
+  \href{}{排列事务流程图}
+  \newline{}
+  \href{}{链式事务流程图}
+\end{itemize}
+
+\section{Interests}
+\cvitem{hobby 1}{中式八球}
+\cvitem{hobby 2}{滑板}
+
+\clearpage
+
+\clearpage\end{CJK*}                              
+\end{document}
